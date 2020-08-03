@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav {
+    box-sizing: border-box;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 100%;
+    background: #001F42;
+    color:white;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-between;
+
+}
+
+nav  a {
+    text-decoration: none;
+    color:inherit;
+}
+nav li {
+    display: inline-block;
+    margin:0 15px;
+}
+nav ul {
+    flex:1;
+}
+
+nav li a {
+  color:inherit;
+    text-decoration: none;
+}
+nav li a:hover {
+    color:#FAA144;
+}
+
+nav .buttons {
+    font-size: large;
+
+}
+
+nav .buttons * {
+    margin:5px;
+}
+.purple-btn {
+    font-size: inherit;
+    padding:13px 23px;
+    background: #4453A8;
+    border:2px solid #4453A8;
+    border-radius: 2px;
+    color: white;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+.purple-btn:hover{
+    background:transparent;
+
+}
+
+.reverse-purple-btn{
+    background: transparent;
+}
+
+
+.reverse-purple-btn:hover{
+    background:#4453A8;
+}
+
+header{
+    background: #001F42;
+    display: flex;
+    padding-top: 150px;
+    position: relative;
+    background-image:url('https://rabbet.com/wp-content/uploads/2020/07/Rabbet-Construction-Finance-Platform.png');
+    background-position: bottom right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+header .info {
+    padding: 200px 40px;
+    width: 40%;
+}
+header .info h1 {font-size:40px;}
+header .info * {
+
+    margin: 0 auto;
+    margin:30px 0px;
+    color:white;
+}
+header img {
+    width: 50%;
+    object-fit: contain;
+}
+
+header .triangle {
+    width: 0;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 98.4vw solid transparent;
+    border-bottom: 100px solid white;
+    position: absolute;
+    bottom: 0px;
+}
+
+section#a {
+    display: flex;
+    background: #F6F7FB;
+
+    padding-top: 100px;
+}
+
+section#a .cards{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+section#a .cards .card {
+    border-top: 4px solid red;
+    width: 240px;
+    background: white;
+    text-align: center;
+    margin:20px;
+}
+section#a .cards .card * {
+    margin: 40px 10px;
+}
+section#a .card-text {
+    color:#395671;
+}
+section#a .card-link{
+    color: #4957B3;
+    text-decoration: none;
+}
+
+section#a .info{
+    width: 30%;
+    padding:50px 0;
+}
+section#a .info p{
+ opacity: 0.8;
+}
+
+section#a .info * {
+    margin:25px 0px;
+
+}
+section#a .info .buttons  a{
+    text-decoration: none;
+    color:#4957B3;
+}
+section#a .info h2{color:#001F43;}
+section#a .info .buttons  a:hover{
+    color:white;
+}
+
+
+section#b .cards{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+
+section#b .card{
+    display: flex;
+    padding:10px;
+
+}
+
+section#b .card * {
+    margin:10px;
+}
+
+section#b .card h4 {
+    color:#001F43;
+}
+section#b .card p{
+    opacity: 0.7;
+    font-size:14px
+}
+section#b h1 {
+    color:#001F43;
+    margin:25px;
+}
+
+section#b p{
+    margin: 10px;
+    font-size: small;
+    opacity: 0.7;
+}
+
+section#c{
+    padding:70px;
+    display: flex;
+}
+
+section#c .cards{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width:50%;
+}
+
+section#c .cards img {
+    width: 100%;
+}
+section#c .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+section#c .card img {
+    object-fit: contain;
+    width: 70%;
+}
+
+.title{
+    color:#001F43;
+}
+section#c > .info {
+    text-align: center;
+    width: 50%;
+    padding:20px 30px;
+}
+section#c > .info img {
+    width: 50px;
+}
+section#c > .info > * {
+    text-align: center;
+    margin: 10px;
+}
+footer{
+    background: #001F42;
+    color:white;
+}
+
+footer .lists {
+
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    padding:20px 0px;
+    justify-content: center;
+}
+footer .lists * {
+    margin: 10px;
+}
+footer .lists a {
+    text-decoration: none;
+    color:#395671;
+    display: block;
+}
+
+
+footer .lists a:hover{
+    color:#FAA144;
+}
+
+
+footer .icons a {
+    display: inline-flex;
+    color:white;
+    background: #4957B3;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+}
+footer .icons a:hover{
+    color:white;
+    background: #FAA144;
+}
+
+
+.copyright{
+    text-decoration: none;
+    color: #395671;
+    padding: 10px;
+    
+}
+
+nav .mobile{
+    text-align: right;
+    font-size: 32px;
+    width: 100%;
+}

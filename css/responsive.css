@@ -1,0 +1,98 @@
+@media screen and (max-width:1200px){
+    nav ul {
+        display: none;
+    }
+    
+    header .info {
+        width: 100%;
+        text-align: center;
+        padding: 70px 40px;
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+    section#a {
+        flex-direction: column;   
+        text-align: center;
+    }
+    section#a .info{
+        width: 100%;
+        padding: 30px;
+    }
+    section#a .info * {
+        margin: 35px 0px;
+    }
+  
+    section#a > * {
+        width: 100%;
+    }
+    section#a .cards .card {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    section#a .cards{
+        padding: 50px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    section#b .cards {
+        grid-template-columns: 100%;
+    }
+    section#b .card{
+        flex-direction: column;
+    }
+
+    section#c {
+        padding: 0;
+        flex-direction: column;
+    }
+    section#c  > * {
+        width: 100%!important;
+    }
+    footer .lists{
+        text-align: center;
+        grid-template-columns: 100%;
+        padding: 20px;
+    }
+    section#c > .info img {
+        width: 70px;
+    }
+    section#c > .info {
+        padding:40px 10px;
+    }
+    section#c > .info > *{
+        margin: 20px;
+    }
+
+    footer .lists .list {
+        padding-bottom: 10px;
+        border-bottom:0.1px solid #a7a7a7;
+    }
+    section#a .cards .card {
+        margin:0;
+        margin-top:40px;
+    }
+    footer .copyright{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:468px){
+    .buttons * {
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width:373px){
+    nav{
+        flex-direction: column;
+    }
+    nav .buttons{
+        margin-top: 10px;
+        position: static;
+    }
+}
